@@ -2,7 +2,7 @@
   "name": "randomizerts",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.html",
   "scripts": {
     "test": "test",
     "start": "lite-server"
