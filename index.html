@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TypeScript & Webpack</title>
+    <title>Randomizer</title>
     <!-- Bootstrap & FontAwesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://use.fontawesome.com/f403a1a535.js"></script>
@@ -17,7 +17,23 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h1>TypeScript & Webpack</h1>
+            <h1>Randomizer</h1>
+            <p><b>To use</b>: Every time you load/reload the page, a new random email is picked. The winning email is revealed when you click on the button, or you can open your developer tools console to reveal that same winner. To pick again, simply reload the page and press the button again.</p>
+            <small>This app is to help the <a href="http://www.gastro.org">American Gastroenterological Association (AGA)</a> select a random winner for their giveaway prizes. If you would like to use this code to create your own app please <a href="https://github.com/cbstodd/typescript_webpack" target="_blank">click here to download</a> the starter TypeScript w/Webpack app.</small>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="btn btn-primary" id="pickEmailBtn">Pick email</div>
+        <br>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Winning email is:</h3>
+            </div>
+            <div class="panel-body">
+                <div id="email-output"></div>
+            </div>
         </div>
     </div>
 
