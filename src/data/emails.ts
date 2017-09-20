@@ -1,3 +1,4 @@
+// TODO: REMOVE EMAILS BEFORE MAKING OPEN TO PUBLIC.
 export class Emails {
     emailList() {
         return [

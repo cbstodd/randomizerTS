@@ -1,16 +1,16 @@
-# typescript_webpack
+# RandomizerTS
 
-Bare minimum boilerplate to get up and running with Webpack using TypeScript.
+Simple app to help pick random json objects. It was built with TypeScript and Webpack.
 
 To use:
 
 Download file:
 
-    git clone git@github.com:cbstodd/typescript_webpack.git
+    git clone git@github.com:cbstodd/randomizerTS.git
 
 To change name of the file:
 
-    mv typescript_webpack new_project_name
+    mv randomizerTS new_project_name
 
 Change/move into the new directory:
 
@@ -23,18 +23,19 @@ To rename the git repo to your own:
 Rename project name in the package.json file.
 
       "name": "new_project_name",
-    
+
 Install dependencies:
 
-    npm install 
+    npm install
 
 Run webpack:
 
     webpack
- 
+
 Start server in new terminal window:
 
-    npm start 
+    npm start
 
+To use your own data, simply replace the data in `src/data/emails.ts`
 
 Happy Coding :)
