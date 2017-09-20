@@ -2,10 +2,9 @@
   "name": "randomizerts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
-    "test": "test",
-    "start": "lite-server"
+    "test": "test"
   },
   "author": "Colin Stodd http://www.colinstodd.com",
   "license": "ISC",
