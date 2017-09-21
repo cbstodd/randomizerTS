@@ -1,17 +1,24 @@
 {
-  "name": "randomizerts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Colin Stodd http://www.colinstodd.com",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.3.0",
-    "ts-loader": "^2.0.1",
-    "typescript": "^2.2.1",
-    "webpack": "2.2.1"
-  }
+    "name": "randomizerts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "start": "node index.js"
+    },
+    "author": "Colin Stodd http://www.colinstodd.com",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.0",
+        "ts-loader": "^2.0.1",
+        "typescript": "^2.2.1",
+        "webpack": "2.2.1"
+    },
+    "engines": {
+        "node": "8.1.4"
+    },
+    "dependencies": {
+        "node-static": "^0.7.10"
+    }
 }

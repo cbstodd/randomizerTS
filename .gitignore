@@ -1,3 +1,10 @@
 node_modules
 .idea/
 .vscode/
+
+/node_modules
+npm-debug.log
+.DS_Store
+/*.en
+
+src/data/emails.ts
