@@ -8,3 +8,5 @@ npm-debug.log
 /*.en
 
 /src/data/emails.ts
+
+/build
