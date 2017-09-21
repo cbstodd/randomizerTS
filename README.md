@@ -36,6 +36,6 @@ Start server in new terminal window:
 
     npm start
 
-To use your own data, simply replace the data in `src/data/emails.ts`
+To use your own data, simply replace the data in `src/data/sample.ts`
 
 Happy Coding :)
