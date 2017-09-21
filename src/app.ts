@@ -24,9 +24,7 @@ class Email {
 
     });
   }
-
-  reload()
-
+  
 }
 
 window.onload = function() {
