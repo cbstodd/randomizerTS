@@ -1,0 +1,7 @@
+body {
+    background-color:#ffffff;
+}
+.alert, .alert-success {
+    margin: 0;
+    border: 1px solid #E0F0D9;
+}
